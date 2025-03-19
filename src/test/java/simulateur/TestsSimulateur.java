@@ -26,6 +26,7 @@ public class TestsSimulateur {
 
     public static Stream<Arguments> donneesPartsFoyerFiscal() {
         return Stream.of(
+                //coucou
                 Arguments.of(24000, "CELIBATAIRE", 0, 0, false, 1),
                 Arguments.of(24000, "CELIBATAIRE", 1, 0, false, 1.5),
                 Arguments.of(24000, "CELIBATAIRE", 2, 0, false, 2),
