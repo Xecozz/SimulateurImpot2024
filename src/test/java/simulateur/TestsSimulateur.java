@@ -98,6 +98,7 @@ public class TestsSimulateur {
 
     public static Stream<Arguments> donneesRevenusFoyerFiscal() {
         return Stream.of(
+                //coucou
                 Arguments.of(12000, "CELIBATAIRE", 0, 0, false, 0), // 0%
                 Arguments.of(20000, "CELIBATAIRE", 0, 0, false, 250), // 11%
                 Arguments.of(35000, "CELIBATAIRE", 0, 0, false, 2736 ), // 30%
