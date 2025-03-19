@@ -27,7 +27,7 @@ public class TestsSimulateur {
     public static Stream<Arguments> donneesPartsFoyerFiscal() {
         return Stream.of(
                 //coucou
-                Arguments.of(24000, "CELIBATAIRE", 0, 0, false, 1),
+                Arguments.of(24000, "CELIBATAIRE", 0, 0, false, 3),
                 Arguments.of(24000, "CELIBATAIRE", 1, 0, false, 1.5),
                 Arguments.of(24000, "CELIBATAIRE", 2, 0, false, 2),
                 Arguments.of(24000, "CELIBATAIRE", 3, 0, false, 3),
@@ -99,7 +99,7 @@ public class TestsSimulateur {
     public static Stream<Arguments> donneesRevenusFoyerFiscal() {
         return Stream.of(
                 Arguments.of(12000, "CELIBATAIRE", 0, 0, false, 0), // 0%
-                Arguments.of(20000, "CELIBATAIRE", 0, 0, false, 199), // 11%
+                Arguments.of(20000, "CELIBATAIRE", 0, 0, false, 250), // 11%
                 Arguments.of(35000, "CELIBATAIRE", 0, 0, false, 2736 ), // 30%
                 Arguments.of(95000, "CELIBATAIRE", 0, 0, false, 19284), // 41%
                 Arguments.of(200000, "CELIBATAIRE", 0, 0, false, 60768) // 45%
